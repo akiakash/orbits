@@ -58,82 +58,82 @@ import type { BlogType } from './types';
 
 const ncNanoId = _.uniqueId;
 
-const otherPageChildMenus: NavItemType[] = [
-  {
-    id: ncNanoId(),
-    href: '/home',
-    name: 'Home',
-  },
-  {
-    id: ncNanoId(),
-    href: '/about',
-    name: 'About',
-  },
-  {
-    id: ncNanoId(),
-    href: '/gg',
-    name: '404 not found',
-  },
-  {
-    id: ncNanoId(),
-    href: '/destination',
-    name: 'Destination Pages',
-    type: 'dropdown',
-    children: [
-      {
-        id: ncNanoId(),
-        href: '/destination',
-        name: 'Destination',
-      },
-      {
-        id: ncNanoId(),
-        href: '/destination/london',
-        name: 'Destination Single',
-      },
-    ],
-  },
-  {
-    id: ncNanoId(),
-    href: '/about',
-    name: 'Utility Pages',
-    type: 'dropdown',
-    children: [
-      {
-        id: ncNanoId(),
-        href: '/about',
-        name: 'About',
-      },
-      {
-        id: ncNanoId(),
-        href: '/contact',
-        name: 'Contact Us',
-      },
-      {
-        id: ncNanoId(),
-        name: 'Changelog',
-        href: '/changelog',
-      },
-    ],
-  },
-  {
-    id: ncNanoId(),
-    href: '/blog',
-    name: 'Blog Pages',
-    type: 'dropdown',
-    children: [
-      {
-        id: ncNanoId(),
-        href: '/blog',
-        name: 'Blog Page',
-      },
-      {
-        id: ncNanoId(),
-        href: '/blog-single',
-        name: 'Blog Single',
-      },
-    ],
-  },
-];
+// const otherPageChildMenus: NavItemType[] = [
+//   {
+//     id: ncNanoId(),
+//     href: '/home',
+//     name: 'Home',
+//   },
+//   {
+//     id: ncNanoId(),
+//     href: '/about',
+//     name: 'About',
+//   },
+//   {
+//     id: ncNanoId(),
+//     href: '/gg',
+//     name: '404 not found',
+//   },
+//   {
+//     id: ncNanoId(),
+//     href: '/destination',
+//     name: 'Destination Pages',
+//     type: 'dropdown',
+//     children: [
+//       {
+//         id: ncNanoId(),
+//         href: '/destination',
+//         name: 'Destination',
+//       },
+//       {
+//         id: ncNanoId(),
+//         href: '/destination/london',
+//         name: 'Destination Single',
+//       },
+//     ],
+//   },
+//   {
+//     id: ncNanoId(),
+//     href: '/about',
+//     name: 'Utility Pages',
+//     type: 'dropdown',
+//     children: [
+//       {
+//         id: ncNanoId(),
+//         href: '/about',
+//         name: 'About',
+//       },
+//       {
+//         id: ncNanoId(),
+//         href: '/contact',
+//         name: 'Contact Us',
+//       },
+//       {
+//         id: ncNanoId(),
+//         name: 'Changelog',
+//         href: '/changelog',
+//       },
+//     ],
+//   },
+//   {
+//     id: ncNanoId(),
+//     href: '/blog',
+//     name: 'Blog Pages',
+//     type: 'dropdown',
+//     children: [
+//       {
+//         id: ncNanoId(),
+//         href: '/blog',
+//         name: 'Blog Page',
+//       },
+//       {
+//         id: ncNanoId(),
+//         href: '/blog-single',
+//         name: 'Blog Single',
+//       },
+//     ],
+//   },
+// ];
 
 export const NavLinks: NavItemType[] = [
   {
@@ -146,13 +146,13 @@ export const NavLinks: NavItemType[] = [
     name: 'About',
     href: '/about',
   },
-  {
-    id: ncNanoId(),
-    name: 'Pages',
-    href: '/destinations',
-    type: 'dropdown',
-    children: otherPageChildMenus,
-  },
+  // {
+  //   id: ncNanoId(),
+  //   name: 'Pages',
+  //   href: '/destinations',
+  //   type: 'dropdown',
+  //   children: otherPageChildMenus,
+  // },
   {
     id: ncNanoId(),
     name: 'Contact',
