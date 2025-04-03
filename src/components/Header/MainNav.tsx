@@ -12,7 +12,7 @@ const MainNav = () => {
   return (
     <div className="container flex items-center justify-between lg:justify-normal">
       <div className="flex-1">
-        <Image src="/logo/logo.png" width={120} height={40} alt="" />
+        <Image src="/logo/logoOrbit.png" width={120} height={40} alt="" />
       </div>
       <div className="hidden items-center justify-center lg:flex">
         {NavLinks.map((item) => (
