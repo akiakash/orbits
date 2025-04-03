@@ -984,13 +984,12 @@ export const browseTemplates = {
     'Take a look at our collection of 100+ premium Templates at ThemeAlchemy.',
   href: '""',
   coverImage: templateCover,
-  buttonName: 'Buy Template',
+  buttonName: 'Orbit',
 };
 
 export const buyTemplate = {
-  heading: 'Buy Template on ThemeAlchemy',
-  description:
-    'Take a look at our collection of 100+ premium Templates at ThemeAlchemy.',
+  heading: 'Orbit',
+  description: '',
   href: '""',
   coverImage: buyCover,
   buttonName: 'Explore more templates',
